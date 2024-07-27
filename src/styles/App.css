@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    --text-color: #1a1a1a;
+    --background-color: #f4f4f4;
+    --input-background-color: #fff;
+    --border-color: #ccc;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 1200px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,238 @@
+.neuralNetworkPage {
+    width: 100%;
+    font-size: 13px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.duplicateButton {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.hardwareRequirement, .statusMessage, .instructions, .howTo {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+.neuralNetworkPage__wrapper {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.prompts {
+    flex: 1;
+}
+
+.prompts__wrapper {
+    display: flex;
+}
+
+.prompts__border {
+    flex: 1;
+    border-bottom: solid 1px #c5c1c1;
+}
+
+.prompts__title {
+    display: inline-block;
+    min-width: 10px;
+    padding: 10px;
+    border: solid 1px #c5c1c1;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+}
+
+.prompts__tab {
+    border: solid 1px #c5c1c1;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.prompts__description {
+    border: solid 1px #c5c1c1;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.prompts__field {
+    padding: 10px;
+}
+
+.prompts__label {
+    color: #6e6e6e;
+}
+
+.prompts__input {
+    margin-top: 10px;
+    border: solid 1px #c5c1c1;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.divider {
+    border: solid 1px #c5c1c1;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.generateButton {
+    width: 100%;
+    height: 40px;
+    border: solid 1px #c5c1c1;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #a5a4a4;
+}
+
+.generateButton:hover {
+    background-color: #838383;
+}
+
+.inputFile {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    background-color: #fff;
+    border: dashed 1px #c5c1c1;
+    border-radius: 10px;
+}
+
+.input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 0;
+}
+
+.inputLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.removeButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgb(0 0 0 / 50%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.resultsContainer {
+    margin-top: 20px;
+    flex: 1;
+}
+
+.results__wrapper {
+    display: flex;
+}
+
+.results__border {
+    flex: 1;
+    border-bottom: solid 1px #c5c1c1;
+}
+
+.results__title_main {
+    display: inline-block;
+    min-width: 10px;
+    padding: 10px;
+    border: solid 1px #c5c1c1;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+}
+
+.results__title {
+    display: inline-block;
+    min-width: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #c5c1c1;
+    background-color: #fff;
+}
+
+.results__tab {
+    border: solid 1px #c5c1c1;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.results__content {
+    padding: 20px;
+    border: solid 1px #c5c1c1;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.results__content img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
