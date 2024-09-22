@@ -1,42 +1,113 @@
-.content_container {
+body {
+    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    width: 1200px;
-    background-color: #f4f4f4;
+    flex-direction: column;
 }
 
-.content_gradient {
+.home-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.home-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-height: 80vh;
+}
+
+.home-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #eaeaea;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.home-content {
+    max-width: 50%;
+}
+
+.home-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.home-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.generate-button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+    background-color: #333;
+}
+
+.home-note {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.home-images {
+    position: relative;
+    width: 300px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.image-card {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at 20% 30%, #ffa1ab, transparent 25%),
-    radial-gradient(circle at 80% 70%, #C9FFBF, transparent 65%),
-    radial-gradient(circle at 50% 50%, #C9FFBF, transparent 40%),
-    radial-gradient(circle at 30% 70%, #7FFFD4, transparent 35%),
-    radial-gradient(circle at 70% 20%, #7FFFD4, transparent 30%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
 }
 
-.content_gradient p {
-    position: relative;
+.image-card1 {
+    background-image: url('../assets/homePagePicture3.jpg');
+    background-size: cover;
+    transform: translate(-180px, -10px) rotate(-5deg);
     z-index: 1;
 }
 
-.content_text {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 24px;
-    color: #444444;
-    opacity: 0.9;
-    line-height: 1.5;
-    margin-top: 20px;
-    padding: 0 20px;
+.image-card2 {
+    background-image: url('../assets/homePagePicture2.jpg');
+    background-size: cover;
+    transform: translate(-80px, 0px) rotate(2deg);
+    z-index: 2;
 }
 
+.image-card3 {
+    background-image: url('../assets/homePagePicture1.jpg');
+    background-size: cover;
+    transform: translate(20px, 10px) rotate(-3deg);
+    z-index: 3;
+}
+
+.wordpress-logo {
+    background-size: contain;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}

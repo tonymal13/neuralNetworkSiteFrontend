@@ -71,9 +71,6 @@ const AuthPage = () => {
 
     return (
         <div className="auth_wrapper">
-            <div className="auth_decor1"></div>
-            <div className="auth_decor2"></div>
-            <div className="auth_decor3"></div>
             <div className="auth_container">
                 {isAuthenticated ? (
                     <div>
