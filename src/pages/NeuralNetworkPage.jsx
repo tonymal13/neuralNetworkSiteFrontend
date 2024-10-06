@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/NeuralNetworkPage.css';
+import '../styles/NeuralNetworkPage.scss';
 import image from '../assets/image.png';
 
 const ImageUploader = ({ selectedFile, onRemove, onChange }) => (

@@ -5,7 +5,7 @@ import AuthPage from "./pages/AuthPage";
 import HomePage from "./pages/HomePage";
 import NeuralNetworkPage from "./pages/NeuralNetworkPage";
 import ProtectedRoute from "./components/ProtectedRoute";
-import "./styles/App.css";
+import "./styles/App.scss";
 
 const App = () => {
     return (

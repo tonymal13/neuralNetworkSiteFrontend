@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import '../styles/AuthPage.css';
+import '../styles/AuthPage.scss';
 import AuthForm from '../components/AuthForm';
 
 const AuthPage = () => {
